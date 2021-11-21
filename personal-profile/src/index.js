@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 // import '../public/img'
-const profileImg = 'https://pbs.twimg.com/profile_images/3186543075/43e523add068f76ef9767f00106c01d2_400x400.jpeg'
+const profileImg = 'https://lh3.googleusercontent.com/a-/AOh14GiWHnCWnWgDTKkn2DAEQXbuF6P7UDUm8vkN_9qu=s576-p-rw-no'
 // const navBar=
 // const header =
 const aboutMe = 'Full stack Web Developer with a passion for problem solving and creativity. Self-driven because of the love of Web Development and what I can do with it in the future.'
@@ -32,7 +32,7 @@ const Profile = () => {
   return (
   <section>
     <h1>Brandon Kemboi</h1>
-    <img src={profileImg} alt=""/>
+    <img className='resize'src={profileImg} alt=""/>
   <article className="middleBox">
     <div className = 'aboutMe'>
       <h2>About Me: </h2>
