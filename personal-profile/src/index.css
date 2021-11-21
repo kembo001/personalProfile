@@ -19,3 +19,8 @@ body {
 .skills {
   margin: 2%;
 }
+
+.resize {
+  width: 300px;
+  height: auto;
+}
